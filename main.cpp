@@ -23,6 +23,9 @@ int main(int argc, char *argv[ ])
   QPushButton *createButton = new QPushButton("createButton");
   createButton->setText("CREATE");
 
+  QPushButton *renameButton = new QPushButton("renameButton");
+  renameButton->setText("RENAME");
+ 
 
   QString const MAIN_PATH("./Test_folders/");
 
