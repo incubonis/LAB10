@@ -22,11 +22,12 @@ int main(int argc, char *argv[ ])
 
   QPushButton *createButton = new QPushButton("createButton");
   createButton->setText("CREATE");
-
   QPushButton *renameButton = new QPushButton("renameButton");
   renameButton->setText("RENAME");
   QPushButton *resetButton = new QPushButton("resetButton");
   resetButton->setText("RESET");
+  QPushButton *removeButton = new QPushButton("removeButton");
+  removeButton->setText("REMOVE");
  
  
 
