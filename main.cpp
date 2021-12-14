@@ -25,6 +25,9 @@ int main(int argc, char *argv[ ])
 
   QPushButton *renameButton = new QPushButton("renameButton");
   renameButton->setText("RENAME");
+  QPushButton *resetButton = new QPushButton("resetButton");
+  resetButton->setText("RESET");
+ 
  
 
   QString const MAIN_PATH("./Test_folders/");
